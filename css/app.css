@@ -2,6 +2,7 @@ body{
     background-color: bisque;
     background-image: url("../images/1660658724-thanh-huong-vai-hoan-thu-6985-1660295659158-166029565929923347557-width645height968.jpeg");
     background-size: cover;
+    /*background-repeat: no-repeat;*/
 }
 h1{
     color: rgba(255,20,147,50);
@@ -10,7 +11,7 @@ p{
     color: #ffa500;
     font-size: 16px;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     line-height: 1.5;
     text-align: justify;/* left right center justify */
     text-decoration: none;/* underline line-through overline none*/

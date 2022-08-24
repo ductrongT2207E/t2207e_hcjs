@@ -1,0 +1,9 @@
+input[type=email]{
+    background-color: #ffa500;
+}
+input[name=phone]{
+    background-color: aqua;
+}
+input[type=password][name=pwd]{
+    background-color: deeppink;
+}

@@ -83,7 +83,7 @@ function countdown() {
         clearInterval(si);
     }
 }
-var si = setInterval(countdown,1000);
+//var si = setInterval(countdown,1000);
 
 // viết chương trình cứ 2s in ra 1 số chẵn tăng dần theo thời gian
 // in tối đa 10 số.

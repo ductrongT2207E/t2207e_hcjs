@@ -52,10 +52,32 @@ function demo(){
 console.log("ABCXYZ...");
 var n = 2;
 var m = 0;
+function checkPrime(x) {
+ // kiem tra x co phai so nguyen to hay khong
+    if(x < 2){
+        return false;
+    }else if(x == 2 || x == 3){
+        return true;
+    }else{
+        for(var i=2;i<=x/2;i++){
+            if(x%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+}
+function nextPrime(x) {
+    for(var i=x+1;true;i++){
+        if(checkPrime(i)){
+            return i;
+        }
+    }
+}
 function countdown() {
     var xyz = document.getElementById("head");
     xyz.innerText += " "+n;
-    n+=2;
+    n = nextPrime(n);
     m++;
     if(m>=10){
         clearInterval(si);
